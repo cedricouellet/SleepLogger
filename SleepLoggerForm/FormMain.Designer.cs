@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.buttonStatistics = new System.Windows.Forms.Button();
             this.buttonAddRecord = new System.Windows.Forms.Button();
             this.labelMain = new System.Windows.Forms.Label();
@@ -117,6 +118,7 @@
             this.Controls.Add(this.buttonAddRecord);
             this.Controls.Add(this.buttonStatistics);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.Text = "Sleep Logger - Dashboard";
             this.ResumeLayout(false);

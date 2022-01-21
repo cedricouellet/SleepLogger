@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStatistics));
             this.labelStatistics = new System.Windows.Forms.Label();
             this.richTextBoxSleepRecords = new System.Windows.Forms.RichTextBox();
             this.labelLastRecord = new System.Windows.Forms.Label();
@@ -37,6 +38,12 @@
             this.labelValueWorstRecord = new System.Windows.Forms.Label();
             this.labelValueBestRecord = new System.Windows.Forms.Label();
             this.labelRecords = new System.Windows.Forms.Label();
+            this.labelAverageTimeAsleep = new System.Windows.Forms.Label();
+            this.labelValueAverageTimeAsleep = new System.Windows.Forms.Label();
+            this.labelAverageBedtime = new System.Windows.Forms.Label();
+            this.labelValueAverageBedtime = new System.Windows.Forms.Label();
+            this.labelAverageWakeTime = new System.Windows.Forms.Label();
+            this.labelValueAverageWakeTime = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelStatistics
@@ -136,12 +143,75 @@
             this.labelRecords.TabIndex = 8;
             this.labelRecords.Text = "Records:";
             // 
+            // labelAverageTimeAsleep
+            // 
+            this.labelAverageTimeAsleep.AutoSize = true;
+            this.labelAverageTimeAsleep.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelAverageTimeAsleep.Location = new System.Drawing.Point(247, 208);
+            this.labelAverageTimeAsleep.Name = "labelAverageTimeAsleep";
+            this.labelAverageTimeAsleep.Size = new System.Drawing.Size(128, 15);
+            this.labelAverageTimeAsleep.TabIndex = 9;
+            this.labelAverageTimeAsleep.Text = "Average Time Asleep:";
+            // 
+            // labelValueAverageTimeAsleep
+            // 
+            this.labelValueAverageTimeAsleep.AutoSize = true;
+            this.labelValueAverageTimeAsleep.Location = new System.Drawing.Point(247, 223);
+            this.labelValueAverageTimeAsleep.Name = "labelValueAverageTimeAsleep";
+            this.labelValueAverageTimeAsleep.Size = new System.Drawing.Size(73, 15);
+            this.labelValueAverageTimeAsleep.TabIndex = 10;
+            this.labelValueAverageTimeAsleep.Text = "awdawdawd";
+            // 
+            // labelAverageBedtime
+            // 
+            this.labelAverageBedtime.AutoSize = true;
+            this.labelAverageBedtime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelAverageBedtime.Location = new System.Drawing.Point(247, 260);
+            this.labelAverageBedtime.Name = "labelAverageBedtime";
+            this.labelAverageBedtime.Size = new System.Drawing.Size(108, 15);
+            this.labelAverageBedtime.TabIndex = 11;
+            this.labelAverageBedtime.Text = "Average Bedtime:";
+            // 
+            // labelValueAverageBedtime
+            // 
+            this.labelValueAverageBedtime.AutoSize = true;
+            this.labelValueAverageBedtime.Location = new System.Drawing.Point(247, 275);
+            this.labelValueAverageBedtime.Name = "labelValueAverageBedtime";
+            this.labelValueAverageBedtime.Size = new System.Drawing.Size(38, 15);
+            this.labelValueAverageBedtime.TabIndex = 12;
+            this.labelValueAverageBedtime.Text = "label1";
+            // 
+            // labelAverageWakeTime
+            // 
+            this.labelAverageWakeTime.AutoSize = true;
+            this.labelAverageWakeTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelAverageWakeTime.Location = new System.Drawing.Point(247, 317);
+            this.labelAverageWakeTime.Name = "labelAverageWakeTime";
+            this.labelAverageWakeTime.Size = new System.Drawing.Size(123, 15);
+            this.labelAverageWakeTime.TabIndex = 13;
+            this.labelAverageWakeTime.Text = "Average Wake Time:";
+            // 
+            // labelValueAverageWakeTime
+            // 
+            this.labelValueAverageWakeTime.AutoSize = true;
+            this.labelValueAverageWakeTime.Location = new System.Drawing.Point(247, 332);
+            this.labelValueAverageWakeTime.Name = "labelValueAverageWakeTime";
+            this.labelValueAverageWakeTime.Size = new System.Drawing.Size(38, 15);
+            this.labelValueAverageWakeTime.TabIndex = 14;
+            this.labelValueAverageWakeTime.Text = "label1";
+            // 
             // FormStatistics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(483, 450);
+            this.Controls.Add(this.labelValueAverageWakeTime);
+            this.Controls.Add(this.labelAverageWakeTime);
+            this.Controls.Add(this.labelValueAverageBedtime);
+            this.Controls.Add(this.labelAverageBedtime);
+            this.Controls.Add(this.labelValueAverageTimeAsleep);
+            this.Controls.Add(this.labelAverageTimeAsleep);
             this.Controls.Add(this.labelRecords);
             this.Controls.Add(this.labelValueBestRecord);
             this.Controls.Add(this.labelValueWorstRecord);
@@ -153,6 +223,7 @@
             this.Controls.Add(this.labelStatistics);
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormStatistics";
             this.Text = "Sleep Logger - Statistics";
             this.ResumeLayout(false);
@@ -171,5 +242,11 @@
         private Label labelValueWorstRecord;
         private Label labelValueBestRecord;
         private Label labelRecords;
+        private Label labelAverageTimeAsleep;
+        private Label labelValueAverageTimeAsleep;
+        private Label labelAverageBedtime;
+        private Label labelValueAverageBedtime;
+        private Label labelAverageWakeTime;
+        private Label labelValueAverageWakeTime;
     }
 }

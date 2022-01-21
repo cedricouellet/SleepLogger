@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdd));
             this.labelAdd = new System.Windows.Forms.Label();
             this.labelBedtime = new System.Windows.Forms.Label();
             this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
@@ -157,6 +158,7 @@
             this.Controls.Add(this.labelBedtime);
             this.Controls.Add(this.dateTimePickerBedtime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAdd";
             this.Text = "Sleep Logger - Add";
             this.ResumeLayout(false);

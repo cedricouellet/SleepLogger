@@ -6,7 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>sleeping.ico</ApplicationIcon>
+    <AssemblyName>SleepLogger</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="sleeping.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SleepLoggerLib\SleepLoggerLib.csproj" />
