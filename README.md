@@ -12,7 +12,7 @@ A WinForms app to track sleep and view related statistics.
 *SleepLogger* will only work on Windows.
 
 Why? Because I don't like making large-scale apps in JavaScript (with Electron), 
-and am too lazy to learn TypeScript.
+and haven't gotten to learning TypeScript yet (wanted to dive deeper into the .NET ecosystem).
 
 ## Features
 - View Statistics
