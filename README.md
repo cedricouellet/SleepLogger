@@ -6,7 +6,7 @@ A WinForms app to track sleep and view related statistics.
 - Language: C# 9.0
 - Environment: .NET 6
 - Framework: Winforms
-- Testing: nUnit
+- Testing: NUnit
 
 ## Support
 *SleepLogger* will only work on Windows.
