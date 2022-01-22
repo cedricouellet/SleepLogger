@@ -7,6 +7,7 @@ namespace SleepLoggerLib.Services
         TimeOnly? GetAverageBedtime();
 
         float GetAverageTimeAsleep();
+        
         TimeOnly? GetAverageWakeTime();
 
         SleepRecord? GetBest();
