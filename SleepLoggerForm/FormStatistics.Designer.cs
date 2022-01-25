@@ -54,7 +54,7 @@
             this.labelStatistics.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.labelStatistics.Location = new System.Drawing.Point(12, 9);
             this.labelStatistics.Name = "labelStatistics";
-            this.labelStatistics.Size = new System.Drawing.Size(459, 28);
+            this.labelStatistics.Size = new System.Drawing.Size(674, 28);
             this.labelStatistics.TabIndex = 0;
             this.labelStatistics.Text = "Sleep Statistics";
             this.labelStatistics.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -71,7 +71,7 @@
             this.richTextBoxSleepRecords.Name = "richTextBoxSleepRecords";
             this.richTextBoxSleepRecords.ReadOnly = true;
             this.richTextBoxSleepRecords.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.richTextBoxSleepRecords.Size = new System.Drawing.Size(234, 344);
+            this.richTextBoxSleepRecords.Size = new System.Drawing.Size(300, 344);
             this.richTextBoxSleepRecords.TabIndex = 1;
             this.richTextBoxSleepRecords.Text = "";
             this.richTextBoxSleepRecords.WordWrap = false;
@@ -81,7 +81,7 @@
             this.labelLastRecord.AutoSize = true;
             this.labelLastRecord.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelLastRecord.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelLastRecord.Location = new System.Drawing.Point(247, 60);
+            this.labelLastRecord.Location = new System.Drawing.Point(313, 60);
             this.labelLastRecord.Name = "labelLastRecord";
             this.labelLastRecord.Size = new System.Drawing.Size(75, 15);
             this.labelLastRecord.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.labelWorstRecord.AutoSize = true;
             this.labelWorstRecord.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelWorstRecord.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelWorstRecord.Location = new System.Drawing.Point(247, 112);
+            this.labelWorstRecord.Location = new System.Drawing.Point(313, 112);
             this.labelWorstRecord.Name = "labelWorstRecord";
             this.labelWorstRecord.Size = new System.Drawing.Size(87, 15);
             this.labelWorstRecord.TabIndex = 3;
@@ -103,7 +103,7 @@
             this.labelBestRecord.AutoSize = true;
             this.labelBestRecord.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelBestRecord.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelBestRecord.Location = new System.Drawing.Point(247, 166);
+            this.labelBestRecord.Location = new System.Drawing.Point(313, 166);
             this.labelBestRecord.Name = "labelBestRecord";
             this.labelBestRecord.Size = new System.Drawing.Size(78, 15);
             this.labelBestRecord.TabIndex = 4;
@@ -112,7 +112,7 @@
             // labelValueLastRecord
             // 
             this.labelValueLastRecord.AutoSize = true;
-            this.labelValueLastRecord.Location = new System.Drawing.Point(247, 75);
+            this.labelValueLastRecord.Location = new System.Drawing.Point(313, 75);
             this.labelValueLastRecord.Name = "labelValueLastRecord";
             this.labelValueLastRecord.Size = new System.Drawing.Size(0, 15);
             this.labelValueLastRecord.TabIndex = 5;
@@ -120,7 +120,7 @@
             // labelValueWorstRecord
             // 
             this.labelValueWorstRecord.AutoSize = true;
-            this.labelValueWorstRecord.Location = new System.Drawing.Point(247, 127);
+            this.labelValueWorstRecord.Location = new System.Drawing.Point(313, 127);
             this.labelValueWorstRecord.Name = "labelValueWorstRecord";
             this.labelValueWorstRecord.Size = new System.Drawing.Size(0, 15);
             this.labelValueWorstRecord.TabIndex = 6;
@@ -128,7 +128,7 @@
             // labelValueBestRecord
             // 
             this.labelValueBestRecord.AutoSize = true;
-            this.labelValueBestRecord.Location = new System.Drawing.Point(247, 181);
+            this.labelValueBestRecord.Location = new System.Drawing.Point(313, 181);
             this.labelValueBestRecord.Name = "labelValueBestRecord";
             this.labelValueBestRecord.Size = new System.Drawing.Size(0, 15);
             this.labelValueBestRecord.TabIndex = 7;
@@ -147,7 +147,7 @@
             // 
             this.labelAverageTimeAsleep.AutoSize = true;
             this.labelAverageTimeAsleep.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAverageTimeAsleep.Location = new System.Drawing.Point(247, 208);
+            this.labelAverageTimeAsleep.Location = new System.Drawing.Point(313, 208);
             this.labelAverageTimeAsleep.Name = "labelAverageTimeAsleep";
             this.labelAverageTimeAsleep.Size = new System.Drawing.Size(128, 15);
             this.labelAverageTimeAsleep.TabIndex = 9;
@@ -156,7 +156,7 @@
             // labelValueAverageTimeAsleep
             // 
             this.labelValueAverageTimeAsleep.AutoSize = true;
-            this.labelValueAverageTimeAsleep.Location = new System.Drawing.Point(247, 223);
+            this.labelValueAverageTimeAsleep.Location = new System.Drawing.Point(313, 223);
             this.labelValueAverageTimeAsleep.Name = "labelValueAverageTimeAsleep";
             this.labelValueAverageTimeAsleep.Size = new System.Drawing.Size(73, 15);
             this.labelValueAverageTimeAsleep.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             this.labelAverageBedtime.AutoSize = true;
             this.labelAverageBedtime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAverageBedtime.Location = new System.Drawing.Point(247, 260);
+            this.labelAverageBedtime.Location = new System.Drawing.Point(313, 260);
             this.labelAverageBedtime.Name = "labelAverageBedtime";
             this.labelAverageBedtime.Size = new System.Drawing.Size(108, 15);
             this.labelAverageBedtime.TabIndex = 11;
@@ -175,7 +175,7 @@
             // labelValueAverageBedtime
             // 
             this.labelValueAverageBedtime.AutoSize = true;
-            this.labelValueAverageBedtime.Location = new System.Drawing.Point(247, 275);
+            this.labelValueAverageBedtime.Location = new System.Drawing.Point(313, 275);
             this.labelValueAverageBedtime.Name = "labelValueAverageBedtime";
             this.labelValueAverageBedtime.Size = new System.Drawing.Size(38, 15);
             this.labelValueAverageBedtime.TabIndex = 12;
@@ -185,7 +185,7 @@
             // 
             this.labelAverageWakeTime.AutoSize = true;
             this.labelAverageWakeTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAverageWakeTime.Location = new System.Drawing.Point(247, 317);
+            this.labelAverageWakeTime.Location = new System.Drawing.Point(313, 317);
             this.labelAverageWakeTime.Name = "labelAverageWakeTime";
             this.labelAverageWakeTime.Size = new System.Drawing.Size(123, 15);
             this.labelAverageWakeTime.TabIndex = 13;
@@ -194,7 +194,7 @@
             // labelValueAverageWakeTime
             // 
             this.labelValueAverageWakeTime.AutoSize = true;
-            this.labelValueAverageWakeTime.Location = new System.Drawing.Point(247, 332);
+            this.labelValueAverageWakeTime.Location = new System.Drawing.Point(313, 332);
             this.labelValueAverageWakeTime.Name = "labelValueAverageWakeTime";
             this.labelValueAverageWakeTime.Size = new System.Drawing.Size(38, 15);
             this.labelValueAverageWakeTime.TabIndex = 14;
@@ -205,7 +205,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(483, 450);
+            this.ClientSize = new System.Drawing.Size(698, 450);
             this.Controls.Add(this.labelValueAverageWakeTime);
             this.Controls.Add(this.labelAverageWakeTime);
             this.Controls.Add(this.labelValueAverageBedtime);
